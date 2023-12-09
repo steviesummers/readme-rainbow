@@ -3,10 +3,10 @@
 // TODO: Create an array of questions for user input
 
 
-
+const requiredModule = require('./index.js');
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateREADME = require('./generateREADME');
+const generateREADME = require('./generateMarkdown.js');
 
 const questions = [
   {
@@ -57,10 +57,15 @@ const questions = [
   },
 ];
 
-
+const babything = {
+    type: 'input',
+  name: 'name',
+  message: 'What is your name?',
+}
 
 // TODO: Create a function to write README file
-function writeToFile('exampleREADME.MD', generateMarkdown, data) {
+function writeToFile(fileName, data) {
+
     fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('README.md generated successfully!')
      )
@@ -68,12 +73,25 @@ function writeToFile('exampleREADME.MD', generateMarkdown, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions).then((answers) => {
-        const readmeContent = generateREADME(answers);
-        writeToFile('README.md', readmeContent);
+    console.log('init');
 
-    });
+    inquirer
+  .prompt(questions)
+  .then((answer) => {
+    const readmeContent = generateREADME(answer);
+    fs.writeFile('generatedREADME.md', readmeContent, (err) =>
+    err ? console.error(err) : console.log('good job'))
+  });
+
 }
 
 // Function call to initialize app
 init();
+
+
+
+    // inquirer.createPromptModule(questions)().then((answers) => {
+    //     const readmeContent = generateREADME(answers);
+    //     writeToFile('README.md', readmeContent, data);
+
+    // });
