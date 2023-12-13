@@ -1,9 +1,8 @@
-
-# read me rainbow
+# ReadMe-Rainbow
 
 ## Description
 
-this makes read mes
+This application alllows users to create a ReadMe.md for any respoitory they create.
 
 ## Table of Contents
 
@@ -16,30 +15,31 @@ this makes read mes
 
 ## Installation
 
-fuck if iknow npm i or something
+This application require Inquirerv8.2.4 to run. Open and run 'npmci' in the integrated terminal, and then run 'node index.js' to intialize application        
 
 ## Usage
 
-on vscode
+Open the integrated terminal and run npm i. After all necessary files are installed, run 'node index.js' to initiailize.
 
 ## License
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This project is licensed under the [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
 
-For additional details, please check the full license at [Apache License 2.0](https://opensource.org/licenses/Apache-2.0).
+
+
+For additional details, please check the full license at .
 
 ## Contributing
 
-stay away
+They can copy my repo, or send me money via casYou can contribute by submitting pull requests from your fork to the upstream repositor
 
 ## Tests
 
-npm i or something
+Run 'node index.test' if one were present in this assignment
 
 ## Questions
 
-GitHub: [steve :)](https://github.com/steve :))
+GitHub: [steviesummers](https://github.com/steviesummers)
 
-For additional questions, contact me at steve@mail.com.
+For additional questions, contact me at steviesummerss@gmail.com.
+

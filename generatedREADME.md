@@ -1,9 +1,9 @@
 
-# the test
+# ReadMe-Rainbow
 
 ## Description
 
-testing
+This application alllows users to create a ReadMe.md for any respoitory they create.
 
 ## Table of Contents
 
@@ -16,30 +16,30 @@ testing
 
 ## Installation
 
-dont test me
+This application require Inquirerv8.2.4 to run. Open and run 'npmci' in the integrated terminal, and then run 'node index.js' to intialize application        
 
 ## Usage
 
-testing and making readmes
+Open the integrated terminal and run npm i. After all necessary files are installed, run 'node index.js' to initiailize.
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-For additional details, please check the full license at [MIT License](https://opensource.org/licenses/MIT).
+
+
+For additional details, please check the full license at .
 
 ## Contributing
 
-check us out on soundcloud and github
+They can copy my repo, or send me money via casYou can contribute by submitting pull requests from your fork to the upstream repositor
 
 ## Tests
 
-run this shit
+Run 'node index.test' if one were present in this assignment
 
 ## Questions
 
-GitHub: [steve :)](https://github.com/steve :))
+GitHub: [steviesummers](https://github.com/steviesummers)
 
-For additional questions, contact me at angelcruz981@yahoo.com.
+For additional questions, contact me at steviesummerss@gmail.com.
