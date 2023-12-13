@@ -15,7 +15,7 @@ This application alllows users to create a ReadMe.md for any respoitory they cre
 
 ## Installation
 
-This application require Inquirerv8.2.4 to run. Open and run 'npmci' in the integrated terminal, and then run 'node index.js' to intialize application        
+This application require Inquirerv8.2.4 to run. Open and run 'npm i' in the integrated terminal, and then run 'node index.js' to intialize application        
 
 ## Usage
 
